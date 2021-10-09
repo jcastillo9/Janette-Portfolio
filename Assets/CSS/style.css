@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    padding-top: 26px;
+    position: fixed;
+    background-color: white;
+}
+
+h1 {
+    padding-left: 50px;
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    margin-right: 100px;
+    float: right;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+/* home section styling */
+.home {
+    height: 830px;
+    width: 100%;
+    background-color: rgb(214, 164, 247);
+}
+
+.home-content {
+    width: 80%;
+    height: 730px;
+    margin: auto;
+    padding-top: 106px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.Avatar {
+    align-content: center;
+    height: 375px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 129.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home .caption {
+    display: block;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.about {
+    height: 550px;
+    width: 100%;
+    background-color: white;
+}
+
+.about-content {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    padding-top: 106px;
+    vertical-align: top;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+} 
+
+.about-details {
+    color: #0E2431;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+/* My Services CSS */
+.work {
+    height: 830px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.work-content {
+    width: 80%;
+    height: 730px;
+    margin: auto;
+    padding-top: 106px;
+    vertical-align: top;
+    text-align: center;
+    box-shadow:rgba(0, 0, 0, 0.12);
+}
+
+.work .boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.work .boxes .big-box {
+    margin: 20px 20px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.work .boxes .box {
+    margin: 20px 20px;
+    height: 200px;
+    width: 33%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    flex: 1 0 0;
+}
+
+.work .boxes .big-box:hover{
+    background: rgb(214, 164, 247);
+    color: white;
+  }
+.work .boxes .box:hover{
+    background: rgb(214, 164, 247);
+    color: white;
+} 
+
+
+/* Contact Me CSS */
+.contact    {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+}
+
+.contact-content    {
+    width: 80%;
+    height: 220px;
+    margin: auto;
+    padding-top: 30px;
+    vertical-align: top;
+    text-align: center;
+  }
+
+.contact-info   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.contact-info a {
+    text-decoration-line: none;
+}
+  
+/* Footer CSS */
+footer{
+    background:rgb(214, 164, 247);
+    padding: 15px 0;
+    text-align: center;
+} 
+
+@media screen and (max-width: 992px) {
+    .work .boxes .box   {
+        width: 50%;
+        }
+    header, nav ul li a {
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .work .boxes .box   {
+        width: 100%;
+        }
+    header, nav ul li a {
+        flex-direction: column;
+        height: 130px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+
+}
