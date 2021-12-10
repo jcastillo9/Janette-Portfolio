@@ -4,7 +4,7 @@ This website was created for individuals to present to future employers. On the 
 
 # Installation
 
-Run using the github URL: https://jcastillo9.github.io/Janette-Portfolio/
+Run using the github URL: https://jcastillo9.github.io/janette-portfolio/
 
 # Screenshot
 <img src="./Assets/Images/screenshot.png" alt="website home page" class="screenshot"/>
